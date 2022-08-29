@@ -262,5 +262,5 @@ void insert_ordered(node** n, int x){
 
 > Specify a DNODE structure of an integer doubly linked list
 
-> Write a function to delete a node based on the specified index position in doubly linekd list. 0 should delete the head node, 1 should delete the node after head and so on. Handle all the boundary conditions
+> Write a function to delete a node based on the specified index position in doubly linked list. 0 should delete the head node, 1 should delete the node after head and so on. Handle all the boundary conditions
 
