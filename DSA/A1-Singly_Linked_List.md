@@ -39,7 +39,7 @@ void initialize(list* l){
 
 ##### 1. Insertion of a node
 ```
-def insert_start(list* l, int x){
+void insert_start(list* l, int x){
     node* temp = (node*)malloc(sizeof(node));
     temp->data = x;
     temp->link = NULL;
