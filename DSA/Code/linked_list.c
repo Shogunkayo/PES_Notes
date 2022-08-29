@@ -180,14 +180,6 @@ void delete_pos(list* l, int pos){
     }
 }
 
-
-//--------------- MERGE SORT
-
-int main(){
-    node* head = NULL;
-    
-}
-
 //--------------- ORDERED LIST
 
 void ordered_insert(list* l, int x){
