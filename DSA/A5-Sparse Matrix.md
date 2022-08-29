@@ -14,10 +14,12 @@ typedef struct node{
     struct node* next;
 }node;
 ```
-![list_of_lists](https://github.com/Shogunkayo/PES_Notes/DSA//multilist1.jpg?raw=true)
-![[multilist1.jpg]]
+![list_of_lists](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/multilist1.jpg?raw=true)
 
-- Multilist can be used to represent multple orders of a set![[multilist2.jpg]]
+
+- Multilist can be used to represent multple orders of a set
+ 
+ ![set](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/multilist2.jpg?raw=true)
 - Another application of multilist is a sparse matrix
 
 
@@ -38,7 +40,7 @@ typedef struct node{
 - Sparse matrix is represented as an array of tuples
 - Each tuple consists of row number, column number and value
 
-![[sparse_matrix.png]]
+![sparse_matrix](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/sparse_matrix.png?raw=true)
 
 ```
 typedef struct sparse{
