@@ -14,6 +14,7 @@ typedef struct node{
     struct node* next;
 }node;
 ```
+![list_of_lists](https://github.com/Shogunkayo/PES_Notes/DSA//multilist1.jpg?raw=true)
 ![[multilist1.jpg]]
 
 - Multilist can be used to represent multple orders of a set![[multilist2.jpg]]
