@@ -1,8 +1,8 @@
 # MULTILIST
 ----
 
-> What is a multilist data structure? Can we call a doubly linked list as a multilist? Mention the applications of a multilist data structure.> 
-- A multilist is a special type of linekd list where each node contains two or more pointers
+> What is a multilist data structure? Can we call a doubly linked list as a multilist? Mention the applications of a multilist data structure.
+- A multilist is a special type of linked list where each node contains two or more pointers
 
 - Doubly linked list is not a multilist  
 
