@@ -282,7 +282,7 @@ void list_merge(list* l1, list* l2, list* l3){
 ```
 
 ##### 6. Sort
-- [Merge sort](http://en.wikipedia.org/wiki/Merge_sort)is often preferred for sorting a linked list. 
+- [Merge sort](http://en.wikipedia.org/wiki/Merge_sort) is often preferred for sorting a linked list. 
 - The slow random-access performance of a linked list makes some other algorithms (such as [quicksort](https://www.geeksforgeeks.org/quick-sort/)) perform poorly, and others (such as [heapsort](https://www.geeksforgeeks.org/heap-sort/)) completely impossible.
 
 ##### 7. Reverse
