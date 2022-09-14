@@ -18,7 +18,7 @@ btn.addEventListener('click', function(){
 })
 ```
 
-![[events.png]]
+![events.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/events.png)
 
 
 ## Event Objects
@@ -51,9 +51,12 @@ btn.onclick = function(event){
 >**Event bubbling** is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy. In event bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.
 
 The following code
-![[events1.png]] 
+
+![events1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/events1.png) 
+
 gives the output as
-![[events2.png]]
+
+![events2.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/events2.png)
 
 -> An example of `preventDefault()`
 ```
@@ -182,4 +185,4 @@ element.dispatchEvent(event);
 - Event capturing starts at the least specific element and propogates downwards into the target node
 
 ## DOM 2 Level Event Model
-![[events3.png]]
+![events3.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/events3.png)
