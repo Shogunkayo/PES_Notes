@@ -25,7 +25,7 @@
 
 ## Mouse Buttons
 - The event object passed to the mouse event handler has a property called button which indicates which mouse button was pressed
-![[mouse1.png]]
+![mouse1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/mouse1.png)
 
 ## Modifier Keys
 - SHIFT, CTRL, ALT, META
