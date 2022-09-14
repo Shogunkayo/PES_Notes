@@ -9,7 +9,7 @@
   1. `getCurrentPosition()` - returns the location of the visitor as a one-time snapshot
   2. `watchPosition()` - returns the location of the visitor everytime their location changes
 - Both the functions take a success callback function, an error callback function and a geolocation options object as parameters
-![[geo1.png]]
+![geo1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/geo1.png)
 
 -> Getting the coordinates of the user
 ```
