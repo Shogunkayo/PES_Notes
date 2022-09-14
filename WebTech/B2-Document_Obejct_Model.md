@@ -154,3 +154,10 @@ for(int i=0; i<10; i++){
 
 div.appendChild(fragment);
 ```
+
+-> Using `innerHTML` to add an element
+```
+let div = document.querySelector(".test");
+div.innerHTML += "<p> Hello </p>";
+div.innerHTML += "<p class='note>' Hello </p>"
+```
