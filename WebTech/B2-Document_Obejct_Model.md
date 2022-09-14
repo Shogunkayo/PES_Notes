@@ -8,7 +8,7 @@
 
 > DOM IS NOT a part of JavaScript. It is constructed by the BROWSER.
 
-![[dom1.png]]
+![dom1](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/dom1.png)
 - Document is the root node, and has one child which is the `<html>` element
 
 1. The document or webpage is the document node
@@ -58,7 +58,7 @@ let fragment = document.createDocumentFragment();
 
 ### Traversing Elements
 
-![[dom2.png]]
+![dom2.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/dom2.png)
 
 -> To get the parrent node of a specified node
 ```
