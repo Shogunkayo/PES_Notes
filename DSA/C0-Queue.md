@@ -24,3 +24,8 @@
 1. Disk Scheduling
 2. CPU Scheduling
 3. Batch Processing
+
+### Types:
+1. Circular Queue:  [[C2-Circular_Queue]]  [[C3-Josephus_Problem]]
+2. Double ended Queue: [[C4-Double_Ended_Queue]] 
+3. Priority Queue: [[C5-Priority_Queue]]
