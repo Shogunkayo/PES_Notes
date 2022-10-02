@@ -2,7 +2,7 @@
  # TREE
 ---
 - Non-linear and heirarchical data structure consisting of a collection of nodes such that each node stores a value and a set of references to the other nodes
-![[tree.png]]
+![tree.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/tree.png)
 
 - Data is not in a sequential manner
 
