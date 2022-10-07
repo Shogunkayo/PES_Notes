@@ -15,7 +15,7 @@
 
 Example: `React.createElement("h1", {id: "recipe-0", 'data-type': "title"}, "Baked Salmon")`
 
-![[react_dom.png]]
+![react_dom.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/react_dom.png)
 
 ## JSX
 - Extension to JavaScript which allows mixing of HTML tags with JavaScript
@@ -170,7 +170,8 @@ ReactDOM.render(
 ## Complex Components
 - Components which use other user defined components
 - Also called component composition
-![[complex_component.png]]
+
+![complex_component.png](https://github.com/Shogunkayo/PES_Notes/blob/main/WebTech/Images/complex_component.png)
 
 The above component can be broken up into 3 - image rendering, caption rendering and link rendering
 
