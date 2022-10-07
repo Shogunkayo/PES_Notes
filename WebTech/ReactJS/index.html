@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ReactJS</title>
+        <script crossdomain src="https://unpkg.com/react@16/umd/react.development.js"> </script> 
+		<script crossdomain src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"> </script> 
+		<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"> </script>
+    </head>
+
+    <body>
+        <div id="container"></div>
+        <script type="text/babel">
+            class Hello extends React.Component{
+                render(){
+                    return(
+                        <div> 
+                            <h1>Hello, {this.props.children}</h1>
+                            <div> 
+                                <p>World</p>    
+                            </div>
+                        </div>
+                        )
+                };
+            }
+
+            ReactDOM.render(<Hello/>, document.getElementById("container"));
+
+            class Letter extends React.Component{
+                render(){
+                    var letter_style = {
+                        fontSize: "40px",
+                        textAlign: "center",
+                        backgroundColor: this.props.bgcolor,
+                        color: "cyan",
+                        padding: "30px"
+                    }
+
+                    return(
+                        <h1 style={letter_style}>{this.props.children}</h1>
+                    )
+                }
+            }
+
+            ReactDOM.render(
+                <div>
+                    <Letter bgcolor="white">White</Letter>
+                    <Letter bgcolor="grey">Grey</Letter>
+                    <Letter bgcolor="black">Black</Letter>
+                </div>,
+                document.getElementById("container")
+            )
+
+            class MainComponent extends React.Component{
+                render(){
+                    return(
+                        <div>
+                            <ImageComponent{...this.props}/>
+                            <CaptionComponent{...this.props}/>
+                            <LinkComponent{...this.props}/>    
+                        </div>
+                    )
+                }
+            }
+
+            class ImageComponent extends React.Component{
+                render(){
+                    return(
+                        <img src={this.props.src} />
+                    )
+                }
+            }
+
+            class CaptionComponent extends React.Component{
+                render(){
+                    return(
+                        <p>{this.props.caption}</p>
+                    )
+                }
+            }
+
+            class LinkComponent extends React.Component{
+                render(){
+                    return(
+                        <a href={this.props.link}> Click me</a>
+                    )
+                }
+            }
+            
+            //ReactDOM.render(<MainComponent src="demo.png" caption="Tiger in the Woods" link="www.tigerwoods.com"/>, document.getElementById("container"))
+
+            class MyComponent extends React.Component{
+                constructor(props){
+                    super(props);
+                    this.state = {attribute1 : 'value1', attributen: 'valuen'};
+                }
+            }
+
+            class DigitalClock extends React.Component{
+                constructor(props){
+                    super(props);
+                    this.state = {time: new Date()}
+                }
+
+                tick = () => {
+                    this.setState({time: new Date()});
+                }
+
+                render(){
+                    setInterval(this.tick, 1000)
+                    return(<h1>{this.state.time.toLocaleTimeString()}</h1>)
+                }
+            }
+
+            class ColorChanger extends React.Component{
+               constructor(props){
+                    super(props);
+                    this.state = {name: "yellow", id:"1"}
+               }
+
+               click = () => {
+                   this.setState({name: "green", id:"2"})
+               }
+               
+               render(){
+                   var buttonColor = {
+                        fontSize: "40px",
+                        backgroundColor: this.state.name
+                   }
+                   return(
+                       <div>
+                            <h1 style={buttonColor}>{this.state.name}</h1>
+                            <button onClick={this.click}>Click Me!</button>
+                        </div>
+                   )
+               }
+            }
+
+            ReactDOM.render(<ColorChanger />, document.getElementById("container"));
+
+
+        </script>
+    </body>
+</html>
