@@ -41,9 +41,8 @@ for(int i=0; i<100; i++){
 	t[i] = -1;
 }
 ```
-node* inorder_successor(node* root){
+-> unused nodes are set to -1
 
-}
 ##### 1. Insertion
 ```
 void insert(int* t, int x){
