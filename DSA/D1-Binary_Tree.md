@@ -5,8 +5,8 @@
 
 ### Types:
 ---
-1. Full Binary Tree
-   - Every node has either 0 or 2 child nodes
+1. Full/Strictly Binary Tree
+   - Every node except leaf nodes have 2 child nodes
 2. Perfect Binary Tree 
    - All leaf nodes are at the same level
    - If the depth is `d`, there are `0 to d` levels and `2^(d+1) - 1` total number of nodes
