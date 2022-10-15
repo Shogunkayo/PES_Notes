@@ -1,6 +1,6 @@
 # STATELESS COMPONENTS
 ---
-- Do not use `state` and does not have a lifecycle
+- Does not use `state` and does not have a lifecycle
 - Usually contain only the `render` method
 - For performance and clarity of code, such components should be written as functions instead of classes
 - The `render()` method itself can be made into a component
