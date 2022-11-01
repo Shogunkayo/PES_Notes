@@ -8,16 +8,18 @@
 ## Insertion
 - To maintain the property of AVL trees after every insertion, the tree is rebalanced by performing 
 1. Left rotation:
-   ![[left_rotation.png]]
+   - ![left_rotation.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/left_rotation.png)
 2. Right rotation
-   ![[right_rotation.png]]
+   - ![right_rotation.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/right_rotation.png)
 - The tree can be rotated any number of times 
 
 - Common combinations of rotations:
 1. Left-Right rotation
-   ![[lr1.png]]![[lr2.png]]
+- ![lr1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/lr1.png)
+- ![[lr2.png]](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/lr2.png)
 2. Right-Left rotation
-   ![[rl1.png]]![[rl2.png]]
+- ![rl1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/rl1.png)
+- ![[rl2.png]](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/rl2.png)
 
 ### Algorithm
 1. Insert an element as you would for a binary search tree
