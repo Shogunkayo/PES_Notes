@@ -23,7 +23,10 @@
 ![mesh1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/mesh1.png)
 ![mesh2.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/mesh2.png)
 
-## 4. Hybrid Topology
+## 4. Bus Topology
+- A graph where starting and ending node have a degree of 1 and other nodes have a degree of 2 such that the graph forms a line
+
+## 5. Hybrid Topology
 - Combination of two or more topologies
  ![hybrid.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/hybrid.png)
 
