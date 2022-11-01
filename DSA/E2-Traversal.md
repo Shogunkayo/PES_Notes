@@ -107,7 +107,7 @@ int main(){
 - Similar to preorder traversal
 
 Let `a` be the source node for the given graph,
-![[dfs.png]]
+ ![dfs.png](https://github.com/Shogunkayo/PES_Notes/blob/main/DSA/Images/dfs.png)
 
 ### Algorithm
 1. Declare a stack and initialize top to -1
