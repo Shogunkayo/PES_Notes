@@ -119,7 +119,7 @@ Let `a` be the source node for the given graph,
 A secondary array is used to check if a particular node has been visited or not
 **Refer E1-Implementation for the functions used below or graph.c to see the entire program for both adjacency list and matrix**
 
-#### Adjacency List
+#### Adjacency Matrix
 ```
 void initialize_visited(int visited[]){
     for(int i=0; i<N; i++){
@@ -154,7 +154,7 @@ int main(){
 }
 ```
 
-#### Adjacency Matrix
+#### Adjacency List
 ```
 void initialize_visited(int visited[]){
     for(int i=0; i<N; i++){
