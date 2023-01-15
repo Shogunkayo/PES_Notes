@@ -3,7 +3,7 @@
 - Description of the basic hardware and software components that make up the internet 
 
 The internet is a computer network that interconnects billions of computing devices throughout the world. These devices can be traditional (pc, workstations) or non-traditional (laptops, smart phones, tvs). All of these devices are called **hosts** or **end systems**
-![[nutsbolts1.png]]![[nutsbolts2.png]]
+![nutsbolts1.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/nutsbolts1.png)![nutsbolts2.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/nutsbolts2.png)
 
 End systems are connected together by a network of **communication links** and **packet switches**
 - Different links are made up of different physical media and can transmit data at different rates (measured in bits/second)
@@ -42,7 +42,7 @@ End systems attached to the Internet provide a **socket interface** that specifi
 # Protocol
 ---
 
-![[protocol.png]]
+![protocol.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/protocol.png)
 
 A protocol defines the format and the order of messages exchanged between two or more communicatinf entities, as well as the actions taken on the transmission and/or receipt of a message or other event
 - Different protocols are used to accomplish different communication tasks
