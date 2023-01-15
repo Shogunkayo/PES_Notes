@@ -19,13 +19,13 @@
 - simarly, different transmission rate
 - called asymmetric access as different dowstream and upstream rates
 
-![[dsl.png]]
+![dsl.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/dsl.png)
 
 ### 2. Cable-based access
 - Makes use of the cable television company's existing cable television infrastructure
 - Internet access is from the same company that provides cable television
 - Also called Hybrid Fiber Coax as both fiber and coaxial cables are employed in this system 
-![[cable.png]]
+![cable.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/cable.png)
 - Requires special modems called cable modems. The Cable Modem Terminating System serves a similar function as the DSLAM - turning the analog signal sent from the cable modems to digital format
 - Cable access is shared broadcast medium - Every packet sent by the head end travels downstream on every link to every home and every packet sent by a home travels on the upstream channel to the head end
 - If several users are simultaneously downloading a video file on the downstream channel, the actual rate will be significantly less
@@ -36,7 +36,8 @@
 - Faster than the above two access methods
 - Two types : Active Optical Networks and Passive Optical Networks
 
-FFTH using PON: ![[ftth.png]]
+FFTH using PON: 
+- ![ftth.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/ftth.png)
 - Each home has an Optical Network Terminator which is connected by dedicated optical fiber to a neighbourhood splitter
 - The splitter connects multiple homes to a single shared optical fiber which is connected to an Optical Line Terminator
 
