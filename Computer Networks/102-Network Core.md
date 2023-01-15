@@ -31,11 +31,11 @@ To send a message from a source end system to a destination end system, the sour
 - The resources needed along a path to provide for communication between the end systems are reserved for the duration of the communication session between the end systems
 - Traditional telephone networks are examples of circuit-switched networks
 - The sender can transfer the data to the receiver at the guranteed constant rate
-![[ciruit.png]]
+![ciruit.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/ciruit.png)
 
 A circuit in a link is implemented with either Frequency Division Multiplexing or Time Division Multiplexing. In FDM, the frequency spectrum of a link is divided up among the connections established across the link. 
 In TDM, time is divided into frames of fixed duration, and each frame in divided into a fixed number of time slots. When the network establishes a connection across a link, the network dedicates one time slot in every frame to this connection 
-![[multiplexing.png]]
+![multiplexing.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/multiplexing.png)
 
 Circuit switching is wasteful because the dedicated circuits are idle during silent periods
 
@@ -79,4 +79,4 @@ the real-world Internet more closely
 - Builds on top of structure 4  by adding content-provider networks
 - Google is currently one of the leading examples of such a content-provider network. It has 50-100 data centers distributed accross the world. The data centres are interconnected via Google's private TCP/IP network which is seperate from the public Internet
 - By creating its own network, a content-provider not only reduces its payments to upper-tier ISPs, but also has greater control of how its services are ultimately delivered to end users
-![[isp.png]]
+![isp.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/isp.png)
