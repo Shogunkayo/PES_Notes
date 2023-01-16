@@ -6,7 +6,8 @@
 	- Queueing delay
 	- Transmission delay
 	- Propogation delay
-- Total nodal delay `d(nodal) = d(proc) + d(queue) + d(trans) + d(prop)`![[delay.png]]
+- Total nodal delay `d(nodal) = d(proc) + d(queue) + d(trans) + d(prop)`
+![delay.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/delay.png)
 
 ### Processing Delay
 - Time required to examine the packet's header and determine where to direct the packet 
@@ -25,7 +26,7 @@
 	- `La/R` <= 1: nature of arriving traffic
 	- `La/R` ~ 0: average queueing delay is small 
 
-![[trafficdelay.png]]
+![trafficdelay.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/trafficdelay.png)
 
 ### Transmission Delay
 - The amount of time required to push all of the packet's bits into the link
@@ -55,7 +56,7 @@ Suppose there are `N-1` routers between the source and destination, the network 
 - The source records the time that elapses between when it sends a packet and when it receives the corresponding return message
 - Traceroute repeats the above experiment three times so that total of `3N` packets are sent
 
-![[traceroute.png]]
+![traceroute.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/traceroute.png)
 - The output has six columns:
 	- The first column is the `n` value ie the number of routers along the route
 	- The second column is the name of the router
@@ -70,4 +71,5 @@ Suppose there are `N-1` routers between the source and destination, the network 
 - Rate at which bits are being sent from sender to receiver 
 - Depends on the rate of the link. Genrally, link from server to router is denoted as `Rs` and router to client as `Rc`
 - Throughput = `min(Rs, Rc)`
-![[trhoughput.png]]
+
+![trhoughput.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/trhoughput.png)
