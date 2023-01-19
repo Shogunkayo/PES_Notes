@@ -26,6 +26,8 @@
 	- `La/R` <= 1: nature of arriving traffic
 	- `La/R` ~ 0: average queueing delay is small 
 
+- Queuing delay is also calculated as `I*(L/R)*(1-I)` for `I < 1` where `I` is traffic intensity
+
 ![trafficdelay.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/trafficdelay.png)
 
 ### Transmission Delay
@@ -43,6 +45,8 @@
 - A queue preceding a link has finite capacity
 - A router will drop a packet if the queue is full
 - Fraction of lost packets incerases as the traffic intensity increases
+- Packets left in the buffer is given by `a - floor(1000/queuing delay)`
+- Packets dropped = `packets - buffer size`
 
 ## End-to-End Delay
 Suppose there are `N-1` routers between the source and destination, the network is uncongested (queuing delays are negligible)

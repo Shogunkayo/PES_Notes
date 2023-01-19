@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c6e81869bdd011a",
+        "id": "e453d7bd2281a094",
         "type": "tabs",
         "children": [
           {
-            "id": "b12c99c1e692c070",
+            "id": "b89c643bf0320508",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,11 +157,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b12c99c1e692c070",
+  "active": "b89c643bf0320508",
   "lastOpenFiles": [
     "Computer Networks/103-Delay, Loss and Throughput.md",
     "Computer Networks/104-Protocol Layers.md",
-    "Microprocessor/Shifted Register.md",
-    "Computer Networks/102-Network Core.md"
+    "Computer Networks/102-Network Core.md",
+    "Microprocessor/Shifted Register.md"
   ]
 }
