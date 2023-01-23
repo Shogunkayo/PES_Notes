@@ -79,3 +79,6 @@ Suppose there are `N-1` routers between the source and destination, the network 
 ![trhoughput.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/trhoughput.png)
 
 - For `n`  connections, Throughput = `min(Rs,Rc,R/10)`
+- Server or Client Utilization = `R(bottleneck)/R(server or client)`
+
+184166
