@@ -17,7 +17,7 @@
 #### Bandwidth flooding
 If the server has an access rate of `R` bps, then the attack will need to send traffic at a rate of approximately `R` bps to cause damage. If `R` is very large, a single attack source may not be able to generate enough traffic to harm the server. If all the traffic emanates from a single source, an upstream router may be able to detect the attack and block all the traffic from that source before the traffic gets near the server.
 In a Distributed DoS attack, the attacker controls multiple sources and has each source blast traffic at the target. DDoS attacks leverage botnets with thousands of compromised hosts
-
+![ddos](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/ddos.png)
 ![[ddos.png]]
 ## Packet Sniffing
 - Packets can contain all kinds of sensitive information, including passwords and private messages
