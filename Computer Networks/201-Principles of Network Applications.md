@@ -19,3 +19,4 @@
 - They are self-scalable and cost effective
 - They face challenges of security, performance and reliability due to their highly decentralized structure
 ![[apparch.png]]
+![apparch](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/apparch.png)
