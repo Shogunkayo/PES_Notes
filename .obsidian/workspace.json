@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05a9fdb652fa10ba",
+        "id": "a56fa6bb35a15f80",
         "type": "tabs",
         "children": [
           {
-            "id": "90228bc5ef4ad21a",
+            "id": "48ae426f0093f05b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,16 +157,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90228bc5ef4ad21a",
+  "active": "48ae426f0093f05b",
   "lastOpenFiles": [
-    "Computer Networks/200-Application Layer.md",
+    "Microprocessor/Stack Operations.md",
     "Computer Networks/201-Principles of Network Applications.md",
+    "Computer Networks/200-Application Layer.md",
+    "Microprocessor/Branch Instruction.md",
+    "DSA/B1-Implementation_of_Stack.md",
+    "DSA/B5-Paranthesis_Matching.md",
+    "Microprocessor/Shifted Register.md",
     "Computer Networks/105-Networks Under Attack.md",
     "Computer Networks/Processes.md",
-    "Computer Networks/103-Delay, Loss and Throughput.md",
-    "Microprocessor/Branch Instruction.md",
-    "Computer Networks/104-Protocol Layers.md",
-    "Computer Networks/102-Network Core.md",
-    "Microprocessor/Shifted Register.md"
+    "Computer Networks/103-Delay, Loss and Throughput.md"
   ]
 }

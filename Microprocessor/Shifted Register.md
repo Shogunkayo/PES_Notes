@@ -71,3 +71,4 @@ Questions:
 	3. D = A - C using RSB instruction
 2. F = (G + H) - (I + J) using registers R0 to R4 as operands F to J respectively
 3. G = H + A\[10\]
+
