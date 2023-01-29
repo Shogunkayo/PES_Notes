@@ -17,23 +17,24 @@
 - Perform binary arithmetic on two 32-bit operands which may be signed or unsigned
 - The carry-in, when used, is the current value of the `C` bit in the CPSR
 
-| Code           | Description                        | Operation            |
+| Code           | Description                 | Operation            |
 | -------------- | --------------------------- | -------------------- |
 | ADD r0, r1, r2 | simple addition             | r0 = r1 + r2         |
 | ADC r0, r1, r2 | add with carry              | r0 = r1 + r2 + C     |
 | SUB r0, r1, r2 | simple subtract             | r0 = r1 - r2         |
 | SBC r0, r1, r2 | subtract with carry         | r0 = r1 - r2 + C - 1 |
 | RSB r0, r1, r2 | reverse subtract            | r0 = r2 - r1         |
-| RSC r0, r1, r2 | reverse subtract with carry | r0 = r2 - r1                     |
+| RSC r0, r1, r2 | reverse subtract with carry | r0 = r2 - r1         |
 
 ## Bit-wise logical operations
 - Perform the specified boolean logic operations on each bit pair of the input operands
-| Code           | Description                                                                               | Operation      |
-| -------------- | ----------------------------------------------------------------------------------------- | -------------- |
-| AND r0, r1, r2 | AND operation on each bit                                                                 | r0 = r1 and r2 |
-| ORR r0, r1, r2 | OR operation on each bit                                                                  | r0 = r1 or r2  |
-| EOR r0, r1, r2 | XOR operation on each bit                                                                 | r0 = r1 xor r2 |
-| BIC r0, r1, r2 | bit clear where every `1` in the second operand clears the corresponding bit in the first | r0 = r1 and not r2               |
+
+| Code           | Description                                                                               | Operation         |
+| -------------- | ----------------------------------------------------------------------------------------- | ------------------|
+| AND r0, r1, r2 | AND operation on each bit                                                                 | r0 = r1 and r2    |
+| ORR r0, r1, r2 | OR operation on each bit                                                                  | r0 = r1 or r2     |
+| EOR r0, r1, r2 | XOR operation on each bit                                                                 | r0 = r1 xor r2    |
+| BIC r0, r1, r2 | bit clear where every `1` in the second operand clears the corresponding bit in the first | r0 = r1 and not r2|
 
 ## Register movement operations
 - These instructions ignore the first operand, which is omitted from the assembly language format, and simply move the second operand to the destination
