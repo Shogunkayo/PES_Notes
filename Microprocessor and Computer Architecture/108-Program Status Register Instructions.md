@@ -2,9 +2,9 @@
 ---
 - ARM instruction set provides two instructions to directly control a program status register `psr`
 - The `MRS` instruction transfers the contents of either the `cpsr` or `spsr` into a register or vice versa
-![[psr.png]]
+![[psr.png]]![psr1](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/psr.png)
 - `fields` can be any combination of control `c` , extension `x`, status `s` and flags `f`
-![[psr2.png]]
+![[psr2.png]]![psr2](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/psr2.png)
 
 ```
 /* Move to register from status register */
