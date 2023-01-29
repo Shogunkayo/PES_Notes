@@ -25,7 +25,7 @@
 - Common misconception that computers spend their time computing, carrying out arithmetic operations on user data
 - In practice they spend very little time 'computing'. Most of the work is in moving the relevant data items and program routines rather than processing it in any transformational sense
 
-![[instrusage.png]]
+![[instrusage.png]]![instrusage](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instrusage.png)
 
 To improve data movement =>
 - Pipelining
