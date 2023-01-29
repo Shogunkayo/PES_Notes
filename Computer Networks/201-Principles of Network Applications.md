@@ -98,3 +98,7 @@ To identify the receiving process, the address of the host and an identifier tha
 	- The syntax of the various message types
 	- The semantics of the fields
 	- Rules for determining when and how a process sends messages and responds to messages
+
+| Application     | Application Protocol |
+| --------------- | -------------------- |
+| Web application |                      |
