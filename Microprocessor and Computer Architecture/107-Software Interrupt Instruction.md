@@ -19,9 +19,9 @@ Operation:
 - Each `SWI` instruction has an associated `SWI` number, which is used to represent a particular function call or feature
 - Typically, the `SWI` instruction is executed in user mode
 
-![[swi.png]]
+![[swi.png]]![swi](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/swi.png)
 
-![[swi2.png]]
+![[swi2.png]]![swi2](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/swi2.png)
 
 ```
 /* Procedure to compute if(R0 == R1) R2++ */
