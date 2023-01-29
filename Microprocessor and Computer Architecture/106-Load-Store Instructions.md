@@ -110,7 +110,7 @@ SWI 0x011
 ```
 - The same works for post-indexing addressing as well, only replace line 102 with `LDR R3, [R1], #4`
 
-![[multrans.png]]
+![[multrans.png]]![multrans](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/multrans.png)
 
 ## Multiple-Register Transfer
 - Load-store multiple instructions can transfer multiple registers between memory and the processor in a single instruction
