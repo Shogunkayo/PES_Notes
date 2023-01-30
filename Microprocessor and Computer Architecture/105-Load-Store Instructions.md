@@ -169,6 +169,8 @@ Syntax: `<LDM/STM><Addressing Mode> R13 {!}, Registers`
 | Empty ascending `EA`  | LDMDB             | STMIA		|
 | Empty descending `ED` | LDMIB             | STMDA		|
 
+![stack](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/Capture.PNG)
+
 ## Swap
 Syntax : `SWP <Swap Destination>, <Original>, [<address>]`
 ```
