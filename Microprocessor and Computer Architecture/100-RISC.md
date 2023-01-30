@@ -43,7 +43,7 @@ To improve data movement =>
 
 ## RISC Organization
 - Hard-wired instruction decode logic; CISC processors used large microcode ROMs to decode their instructions.
-- Pipelined execution; CISC processors allowed little, if any, overlap between con secutive instructions (though they do now).
+- Pipelined execution; CISC processors allowed little, if any, overlap between consecutive instructions (though they do now).
 - Single-cycle execution; CISC processors typically took many clock cycles to complete a single instruction.
 
 ## RISC Advantages
