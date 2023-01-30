@@ -123,29 +123,6 @@ MOV r7, r5, LSL #2 ; r7 = r5 * 4
 
 
 ```
-.text
-	;Multiplication by 2^n
-	MOV r1, #2
-	MOV r2, #3
-	MOV r0, r2, LSL #3
-
-	ADD r0, r1, r1, LSL #2
-
-	;Multiplication by 6
-	ADD r0, r1, r1, LSL #1
-	MOV r0, r1, LSL #1
-
-	;Multiplication by 6 and add in extra number
-	ADD r0, r1, r2, LSL #1
-	ADD r0, r1, r2, LSL #1
-
-	;Rotate right
-	MOV r2, #0x0000031 ; 49
-	MOV r0, r2, ROR #2
-.end
-```
-
-```
 /* array indedx calculation */
 ADD R0, R1, R2, LSL R3    ; R0 = R1 + R2*2^(R3)
 ```
