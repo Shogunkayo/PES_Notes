@@ -109,6 +109,8 @@ STR R4, [R2]
 SWI 0x011
 ```
 - The same works for post-indexing addressing as well, only replace line 102 with `LDR R3, [R1], #4`
+- Preindexing and autoindexing skip the first element in the array
+
 
 ![[multrans.png]]![multrans](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/multrans.png)
 
@@ -151,7 +153,6 @@ LDMIA R0, {R1-R8}
 STMIA R9, {R1-R8}
 ```
 - Same code works for other addressing modes too, only the working is different
-- Preindexing and autoindexing skip the first element in the array
 
 ## Stack Operations
 - The memory can be treated like a stack
