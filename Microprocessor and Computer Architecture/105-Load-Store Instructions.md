@@ -151,6 +151,7 @@ LDMIA R0, {R1-R8}
 STMIA R9, {R1-R8}
 ```
 - Same code works for other addressing modes too, only the working is different
+- Preindexing and autoindexing skip the first element in the array
 
 ## Stack Operations
 - The memory can be treated like a stack
