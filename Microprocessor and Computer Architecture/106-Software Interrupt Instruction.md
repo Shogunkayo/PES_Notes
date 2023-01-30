@@ -63,3 +63,5 @@ LDR R0, =A
 SWI 0x02    ; display a string on the screen
 SWI 0x11
 ```
+![[swi3.png]]
+![swi3](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/swi3.png)
