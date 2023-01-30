@@ -162,12 +162,12 @@ STMIA R9, {R1-R8}
 
 Syntax: `<LDM/STM><Addressing Mode> R13 {!}, Registers`
 
-| Addressing Mode       | Equivalent in LDM |
-| --------------------- | ----------------- |
-| Full ascending `FA`   | LDMDA             |
-| Full descending `FD`  | LDMIA             |
-| Empty ascending `EA`  | LDMDB             |
-| Empty descending `ED` | LDMIB                  |
+| Addressing Mode       | Equivalent in LDM | Equivalent in STM |
+| --------------------- | ----------------- | ----------------- |
+| Full ascending `FA`   | LDMDA             | STMIB		|
+| Full descending `FD`  | LDMIA             | STMDB		|
+| Empty ascending `EA`  | LDMDB             | STMIA		|
+| Empty descending `ED` | LDMIB             | STMDA		|
 
 ## Swap
 Syntax : `SWP <Swap Destination>, <Original>, [<address>]`
