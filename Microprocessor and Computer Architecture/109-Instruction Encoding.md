@@ -1,8 +1,8 @@
 # Instruction Encoding 
 ---
 ## Data Processing Instruction:
-	![[instr1.png]]
-	![instr](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr1.png)
+![[instr1.png]]
+![instr](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr1.png)
 - 15 different conditions can be used, the sixteenth `1111` is reserved
 - In the absence of a suffix, the condition field of most instructions is set to `AL`
 ![[instr2.png]]
