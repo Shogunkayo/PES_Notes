@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "91b75abd611f2a5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
+                "file": "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
+                "file": "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md"
+                "file": "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md"
               }
             }
           },
@@ -156,17 +169,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "85acbf7769a1eb69",
+  "active": "91b75abd611f2a5d",
   "lastOpenFiles": [
-    "Computer Networks/202-Web and HTTP.md",
-    "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
     "Microprocessor and Computer Architecture/107-Program Status Register Instructions.md",
-    "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
-    "Microprocessor and Computer Architecture/101-ARM.md",
+    "Microprocessor and Computer Architecture/104-Branch Instructions.md",
     "Microprocessor and Computer Architecture/103-Data Processing Instructions.md",
+    "Microprocessor and Computer Architecture/101-ARM.md",
+    "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
+    "Computer Networks/202-Web and HTTP.md",
+    "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
     "Microprocessor and Computer Architecture/Images/instr12.png",
     "Microprocessor and Computer Architecture/108-Function Call.md",
-    "Microprocessor and Computer Architecture/100-RISC.md",
-    "Microprocessor and Computer Architecture/102-Memory Addressing.md"
+    "Microprocessor and Computer Architecture/100-RISC.md"
   ]
 }

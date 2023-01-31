@@ -11,6 +11,8 @@
 | BX Rm        | branch exchange           | pc = Rm & 0xfffffffe, T = Rm & 1                              |
 | BLX label Rm | branch exchange with link | pc = label, T = 1, pc = Rm & 0xfffffffe, T = Rm & 1, lr = address of the next instruction after the BLX                                             |
 
+- BX and BLX are used to change from thumb mode to arm mode or vice versa
+
 ```
 BL subroutine    ; branch to subroutine
 CMP r1, #5       ; compare r1 with 5

@@ -55,6 +55,12 @@
 | TEQ r1, r2 | test equal      | set cc on r1 xor r2                    |
 
 ```
+/* check if number is even */
+MOV R0, #12
+TST R0, #1 ; if Z is 1 in CPSR, r0 is even
+```
+
+```
 /* if ((R0 == R1) && (R2 == R3)), do R4++ */
 
 CMP R0, R1

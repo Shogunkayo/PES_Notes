@@ -37,6 +37,8 @@ Link:
 	MOV PC, LR
 ```
 
+- String must always be loaded into R0
+
 ```
 /* Procedure to display a string on the screen */
 
