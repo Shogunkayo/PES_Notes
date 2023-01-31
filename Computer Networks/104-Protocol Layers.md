@@ -50,6 +50,7 @@
 - Moves the individual bits within the frame from one node to the next
 - Protocols are link dependent and further depend on the actual transmission medium of the link
 
+![[protlay.png]]
 ![protlay.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/protlay.png)
 
 At the sending host, an application-layer message is passed to the transport layer. The transport layer takes the message and appends additional information that will be used by the receiver-side transport layer. The application-layer and the transport-layer header information together constitute the transport-layer segment. The added information might include error-detection bits. The transport layer then passes the segment to the network layer, which adds network-layer header information such as source and destination end system addresses, creating a network-layer datagram. The datagram is then passed to the link layer, which will add its own link-layer header information and create a link-layer frame. At each layer, a packet has two types of fields: **header fields** and **payload field**. The payload is typically a packet from the layer above
