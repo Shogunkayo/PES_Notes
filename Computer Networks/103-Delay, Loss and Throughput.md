@@ -6,7 +6,7 @@
 	- Queueing delay
 	- Transmission delay
 	- Propogation delay
-- Total nodal delay `d(nodal) = d(proc) + d(queue) + d(trans) + d(prop)`
+- Total nodal delay `d(nodal) = d(proc) + d(further depend on the actual transmission medium of the linkqueue) + d(trans) + d(prop)`
 ![[delay.png]]
 ![delay.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/delay.png)
 
@@ -68,6 +68,8 @@ Suppose there are `N-1` routers between the source and destination, the network 
 	- The second column is the name of the router
 	- The third column is the address of the router
 	- The last three columns are the round-trip delays for each experiment
+- Time to live (TTL) refers to the amount of time or “hops” that a packet is set to exist inside a network before being discarded by a router
+- Round Trip Time (RTT) is the time it takes for a data packet to be sent to a destination plus the time it takes for an acknowledgment of that packet to be received back at the origin
 
 ### Other delays
 - VoIP - Voice over IP - the sending side must first fill a packet with encoded digitized speech before passing the packet to the Internet. Time to fill is called packetization delay

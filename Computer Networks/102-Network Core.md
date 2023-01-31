@@ -25,6 +25,12 @@ To send a message from a source end system to a destination end system, the sour
 - Multiple links from a router
 - Routers have a routing table or forwarding table that maps destination addresses to that router's outbound links
 - Routing table is filled using a routing algorithms and routing protocols
+1. Forwarding:
+	- move arriving packets from router's input link to appropriate router output link
+	- local action
+2. Routing:
+	- determine source-destination paths taken by the packets
+	- global action
 
 # Circuit Switching
 ---
@@ -50,7 +56,7 @@ Circuit switching is wasteful because the dedicated circuits are idle during sil
 
 # Network of Networks
 ---
-An  access ISP connecting to end systems is a small piece of a large puzzle -> the access ISPs themselves must be interconnected. This is done by creating a network of networks
+An access ISP connecting to end systems is a small piece of a large puzzle -> the access ISPs themselves must be interconnected. This is done by creating a network of networks
 
 - The naive idea of connecting each ISP directly to every other access ISP is too expensive
 
@@ -66,19 +72,18 @@ An  access ISP connecting to end systems is a small piece of a large puzzle -> t
 - The global transit ISPs themselves must interconnect
 
 ## Network Structure 3
-Not only are there multiple competing tier-1 ISPs, there may be multiple competing regional ISPs in a region. In such a heirarchy, each access ISP pays the regional ISP to which it connects, and each regional ISP pays the tier-1 ISP to which it connects (the access ISP can connect to the tier-1 ISP as well). Thus there is customer-provider relationship at each level of the heirarchy
+Not only are there multiple competing tier-1 ISPs, there may be multiple competing regional ISPs in a region. In such a heirarchy, each access ISP pays the regional ISP to which it connects, and each regional ISs, and eachP pays the tier-1 ISP to which it connects (the access ISP can connect to the tier-1 ISP as well). Thus there is customer-provider relationship at each level of the heirarchy
 
 ## Network Structure 4
-Adding Points of Presence, multi-homing, peering and Internet Exchange Points to structure 3 makes it resemble 
-the real-world Internet more closely
-- PoP is a group of one or more routers(at the same location)  in the provider's network where customer ISPs can connect into the provider ISP
+Adding Points of Presence (PoP), multi-homing, peering and Internet Exchange Points (IXP) to structure 3 makes it resemble the real-world Internet more closely
+- PoP is a group of one or more routers(at the same location) in the provider's network where customer ISPs can connect into the provider ISP
 - Multi-home is to connect to two or more provider ISPs
   - A pair of nearby ISPs at the same level of the heirarchy can peer, that is, they can directly connect their networks together so that all the traffic between them passes over the direct connection rather than through upstream intermediaries. Neither ISP pays the other when two ISPs peer. Tier-1 ISPs peer with each other, settlement-free
-  - A third-party company can create an IXP which is a meeting point where multiple ISPs can peer together
+- A third-party company can create an IXP which is a meeting point where multiple ISPs can peer together
 
 ## Network Structure 5
 - Describes today's Internet
-- Builds on top of structure 4  by adding content-provider networks
+- Builds on top of structure 4 by adding content-provider networks
 - Google is currently one of the leading examples of such a content-provider network. It has 50-100 data centers distributed accross the world. The data centres are interconnected via Google's private TCP/IP network which is seperate from the public Internet
 - By creating its own network, a content-provider not only reduces its payments to upper-tier ISPs, but also has greater control of how its services are ultimately delivered to end users
 ![[isp.png]]

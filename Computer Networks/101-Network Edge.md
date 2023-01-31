@@ -1,10 +1,11 @@
 # EDGE DEVICES
 --- 
 - The end systems/hosts which are at the 'edges' of a network 
-- First router connect to the end system is called edge router
+- First router connected to the end system is called the edge router
 - Access network allows the end system to connect to the internet
 
 ## Access Networks
+- Network that connects network edge to the first router
 - The two most prevalent types of broadband residential access are digital subscriber line and cable
 
 ### 1. Digital Subscriber Line - DSL
@@ -16,7 +17,7 @@
 	- High speed downstream channel: 50 kHz to 1MHz
 	- Medium speed upstream channel: 4kHz to 50kHz
 	- Ordinary two-way telephone channel: 0 to 4kHz
-- simarly, different transmission rate
+- similarly, different transmission rate
 - called asymmetric access as different dowstream and upstream rates
 ![[dsl.png]]
 ![dsl.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/dsl.png)
@@ -33,18 +34,18 @@
 - A distributed multiple access protocol is needed to coordinate transmissions and avoid collisions in the upstream channel
 
 ### Fiber To The Home (FTTH)
-- Provides an optical fiber path from the CO directly to the home
+- Provides an optical fiber path from the CO (central office) directly to the home
 - Faster than the above two access methods
 - Two types : Active Optical Networks and Passive Optical Networks
 
-FFTH using PON: 
+FFTH using PON (passive optical networks): 
 ![[ftth.png]]
 - ![ftth.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/ftth.png)
 - Each home has an Optical Network Terminator which is connected by dedicated optical fiber to a neighbourhood splitter
 - The splitter connects multiple homes to a single shared optical fiber which is connected to an Optical Line Terminator
 
 ## Types of Networks
-- SOHO - smallest network
+- SOHO (Small Office and Home Office) - smallest network
 - Different types of networks:
 	- Personal Area Network
 	- Local Area Network: Wired(Ethernet) or Wireless(Wifi)
@@ -57,13 +58,13 @@ A source end system first transmits a bit, and shortly thereafter the first rout
 - Can take many shapes and forms and need not be of the same type for each transmitter-receiver pai along the path
 - Examples: twisted-pair copper wire, coaxial cable, multimode fiber-optic cable
 - Two categorires: guided and unguided media
-- The waves are guided along a solid meidum in guided media such as a fiber-optic cable
-- The waves propagate in the atmostphere in unguided media such as in wireless LAN or digital satellit e channel
+- The waves are guided along a solid medium in guided media such as a fiber-optic cable
+- The waves propagate in the atmostphere in unguided media such as in wireless LAN or digital satellite channel
 
 ### Twisted-Pair Copper Wire
-- Least expensive and most commonly used used guided transmission medium
+- Least expensive and most commonly used guided transmission medium
 - Has been used by telephone networks
-- Modern twisted pai technology (category 6a cable) can achieve data rates of 10 Gbps for distances up to 100m
+- Modern twisted pair technology (category 6a cable) can achieve data rates of 10 Gbps for distances up to 100m
 
 ### Coaxial Cable
 - Consists of two copper conductors which are concentric, instead of parallel like in twisted-pair
@@ -83,4 +84,4 @@ A source end system first transmits a bit, and shortly thereafter the first rout
 ### Satellite Radio Channels
 - A communication satellite links two or more Earth-based microwave transmitter/receiver known as ground stations
 - The satellite receives transmissions on one frequency band, regenerates the signal using a repeater, and transmits the signal on another frequency
-- Two types of satellite: Geostationary satellites nad Low-Earth Orbiting satellites
+- Two types of satellite: Geostationary satellites and Low-Earth Orbiting satellites

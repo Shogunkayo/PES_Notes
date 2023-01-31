@@ -19,6 +19,7 @@ If the server has an access rate of `R` bps, then the attack will need to send t
 In a Distributed DoS attack, the attacker controls multiple sources and has each source blast traffic at the target. DDoS attacks leverage botnets with thousands of compromised hosts
 ![ddos](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/ddos.png)
 ![[ddos.png]]
+
 ## Packet Sniffing
 - Packets can contain all kinds of sensitive information, including passwords and private messages
 - A passive receiver that records a copy of every packet that flies is called a packet sniffer

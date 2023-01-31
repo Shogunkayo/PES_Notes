@@ -41,7 +41,7 @@ End systems are connected together by a network of **communication links** and *
 - Packet switches are not concerned with the application that is the source or sink of data
 
 End systems attached to the Internet provide a **socket interface** that specifies how a program running on one end system asks the Internet infrastructure to deliver data to a specific destination program running on another end system
-- The Internet socket interface is a set of rules that the sending program must follow so that the Internet can deliver the data to the destination program
+- The Internet socket interface is a set of rules that the sending - Packet switches are not concerned with the application that is the source or sink of dataprogram must follow so that the Internet can deliver the data to the destination program
 
 # Protocol
 ---

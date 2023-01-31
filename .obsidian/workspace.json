@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/100-Internet.md",
+                "file": "Computer Networks/102-Network Core.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks/100-Internet.md",
+                "file": "Computer Networks/102-Network Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks/100-Internet.md",
+                "file": "Computer Networks/102-Network Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks/100-Internet.md"
+                "file": "Computer Networks/102-Network Core.md"
               }
             }
           },
@@ -158,15 +158,15 @@
   },
   "active": "85acbf7769a1eb69",
   "lastOpenFiles": [
+    "Computer Networks/101-Network Edge.md",
+    "Computer Networks/103-Delay, Loss and Throughput.md",
+    "Computer Networks/104-Protocol Layers.md",
+    "Computer Networks/105-Networks Under Attack.md",
+    "Computer Networks/102-Network Core.md",
+    "Computer Networks/100-Internet.md",
     "Computer Networks/201-Principles of Network Applications.md",
     "Computer Networks/202-Web and HTTP.md",
     "Computer Networks/200-Application Layer.md",
-    "Computer Networks/105-Networks Under Attack.md",
-    "Computer Networks/104-Protocol Layers.md",
-    "Computer Networks/103-Delay, Loss and Throughput.md",
-    "Computer Networks/102-Network Core.md",
-    "Computer Networks/101-Network Edge.md",
-    "Computer Networks/100-Internet.md",
     "Computer Networks/Images/traceroute.png"
   ]
 }
