@@ -35,7 +35,7 @@ End systems are connected together by a network of **communication links** and *
 # Services Description
 ----
 - The Internet can also be described as an infrastructure that provides services to applications
-- Internett applications include e-mail, web surfing, mobile and tablet applications, online messaging, multiplayer games
+- Internet applications include e-mail, web surfing, mobile and tablet applications, online messaging, multiplayer games
 - The applications are said to be distributed applications as they involve multiple end systems that exchange data with each other
 - Applications run on end systems, not on packet switches
 - Packet switches are not concerned with the application that is the source or sink of data
@@ -48,5 +48,5 @@ End systems attached to the Internet provide a **socket interface** that specifi
 ![[protocol.png]]
 ![protocol.png](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/protocol.png)
 
-A protocol defines the format and the order of messages exchanged between two or more communicatinf entities, as well as the actions taken on the transmission and/or receipt of a message or other event
+A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event
 - Different protocols are used to accomplish different communication tasks
