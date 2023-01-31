@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microprocessor and Computer Architecture/108-Function Call.md",
+                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microprocessor and Computer Architecture/108-Function Call.md",
+                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microprocessor and Computer Architecture/108-Function Call.md",
+                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Microprocessor and Computer Architecture/108-Function Call.md"
+                "file": "Microprocessor and Computer Architecture/109-Instruction Encoding.md"
               }
             }
           },
@@ -158,15 +158,15 @@
   },
   "active": "85acbf7769a1eb69",
   "lastOpenFiles": [
-    "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
-    "Microprocessor and Computer Architecture/108-Function Call.md",
-    "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
     "Computer Networks/202-Web and HTTP.md",
+    "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
     "Microprocessor and Computer Architecture/107-Program Status Register Instructions.md",
-    "Microprocessor and Computer Architecture/104-Branch Instructions.md",
-    "203-HTTP.md",
-    "Microprocessor and Computer Architecture/105-Load-Store Instructions.md",
+    "Microprocessor and Computer Architecture/106-Software Interrupt Instruction.md",
+    "Microprocessor and Computer Architecture/101-ARM.md",
     "Microprocessor and Computer Architecture/103-Data Processing Instructions.md",
+    "Microprocessor and Computer Architecture/Images/instr12.png",
+    "Microprocessor and Computer Architecture/108-Function Call.md",
+    "Microprocessor and Computer Architecture/100-RISC.md",
     "Microprocessor and Computer Architecture/102-Memory Addressing.md"
   ]
 }

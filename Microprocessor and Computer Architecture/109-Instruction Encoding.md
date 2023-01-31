@@ -23,17 +23,11 @@
 | arithmetic right | 10 |
 | rotate right | 11 |
 
-
-![[instr1.png]]
-![instr](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr1.png)
 - 15 different conditions can be used, the sixteenth `1111` is reserved
 - In the absence of a suffix, the condition field of most instructions is set to `AL`
+- Condition code: (will be given in question paper)
 ![[instr2.png]]
 ![instr2](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr2.png)
-
-
-![[instr3.png]]
-![instr3](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr3.png)
 
 - Example:
 ![[instr4.png]]
@@ -44,37 +38,90 @@
 
 ## Branch Instructions
 
-![[instr6.png]]
-![instr6](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr6.png)
+| Bits     | Purpose                  |
+| -------- | ------------------------ |
+| 31 to 28 | condition                |
+| 27 to 25 | 101                      |
+| 24       | Link, 1 if BL and 0 if B |
+| 0 to 23  | offset                         |
 
 ## Multiplication Instructions
 - For 32 bit multiplication: 
 
-![[mul.PNG]]
-![mul](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/mul.PNG)
+| Bits     | Purpose                |
+| -------- | ---------------------- |
+| 31 to 28 | condition              |
+| 27 to 22 | 000000                 |
+| 21       | 1 if accumulate else 0 |
+| 20       | S flag                 |
+| 19 to 16 | Rd                     |
+| 15 to 12 | Rn                     |
+| 11 to 8  | Rs                     |
+| 7 to 4   | 1001                   |
+| 3 to 0   | Rm (for accumulate)                      |
 
 - For 64 bit multiplication:
- 
-![[instr7.png]]
-![instr7](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr7.png)
+
+| Bits     | Purpose                 |
+| -------- | ----------------------- |
+| 31 to 28 | condition               |
+| 27 to 23 | 00001                   |
+| 22       | 1 if signed, else 0     |
+| 21       | 1 if accumulate, else 0 |
+| 20       | S flag                  |
+| 19 to 16 | RdHi                    |
+| 15 to 12 | RdLo                    |
+| 11 to 8  | Rs                      |
+| 7 to 4   | 1001                    |
+| 3 to 0   | Rm                        |
 
 ## Data Transfer Instructions
 
-![[trans.PNG]]
-![instr8](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/trans.PNG)
+| Bits     | Purpose                                                               |
+| -------- | --------------------------------------------------------------------- |
+| 31 to 28 | condition                                                             |
+| 27 to 26 | 01                                                                    |
+| 25       | 1 if offset is register, 0 if offset is immediate                     |
+| 24       | 1 for pre indexing, 0 for post indexing                               |
+| 23       | 1 for up (add offset to base), 0 for down (subtract offset from base) |
+| 22       | 1 for transfer byte quantity, 0 for transfer word quantity            |
+| 21       | 1 if writeback, else 0                                                |
+| 20       | 1 for load, 0 for store                                               |
+| 19 to 16 | base register                                                         |
+| 15 to 12 | source/destination register                                           |
+| 11 to 0  | offset (similar to the format for data processing instructions)                                                                      |
 
 ![[instr9.png]]
 ![instr9](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr9.png)
 
 ## Block Transfer Instructions
 
-![[instr10.png]]
-![instr10](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr10.png)
+| Bits     | Purpose                  |
+| -------- | ------------------------ |
+| 31 to 28 | condition                |
+| 27 to 25 | 100                      |
+| 24       | 1 if pre indexed, else 0 |
+| 23       | 1 if up, else 0          |
+| 22       | S flag                   |
+| 21       | 1 if writeback, else 0   |
+| 20       | 1 for load, 0 for store  |
+| 19 to 16 | base register            |
+| 15 to 0  | register list                         |
 
+- Example: 
 ![[instr11.png]]
 ![instr11](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr11.png)
 
 ## Swap
 
-![[instr12.png]]
-![instr12](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/instr12.png)
+| Bits     | Purpose                |
+| -------- | ---------------------- |
+| 31 to 28 | condition              |
+| 27 to 23 | 00010                  |
+| 22       | 1 for byte, 0 for word |
+| 21 to 20 | 00                     |
+| 19 to 16 | base register          |
+| 15 to 12 | destination register   |
+| 11 to 8  | 0000                   |
+| 7 to 4   | 1001                   |
+| 3 to 0   | source register        | 
