@@ -79,11 +79,13 @@ To find the convex hull for a given set of points in the plane or a higher dimen
 > A set of points (finite or infinite) in the plane is called convex if for any two points p and q in the set, the entire line segment with endpoints at p and q and belongs to the set
 
 ![[convexhull1.png]]
+![convexhhull1](https://github.com/Shogunkayo/PES_Notes/blob/main/Design%20and%20Analysis%20of%20Algorithms/Images/convexhull1.png)
 
 
 > The convex hull of a set S of points is the smallest convex set containing S (the convex hull of S must be a subset of any convex set containing S)
 
 ![[convexhull2.png]]
+![convexhull2](https://github.com/Shogunkayo/PES_Notes/blob/main/Design%20and%20Analysis%20of%20Algorithms/Images/convexhull2.png)
 
 - If `S` is a set of two points, its convex hull is the line segment connecting these points
 - If `S` is a set of three points not on the same line, its convex hull is the triangle with the vertices at the three points given. If the three points do lie on the same line, the convex hull is the line segment with its endpoints at the two points that are farthest apart
