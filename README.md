@@ -8,7 +8,12 @@ Notes I made for the courses I took in PES University
   - Please refer the course information for details regarding syllabus
 
 2. Microprocessor and Computer Architecture
-  - Currently in Unit 1
+  - Currently in Unit 2
+
+3. Design and Application of Algorithms
+  - Currently in Unit 2
+  - I haven't made notes for Unit 1, will probably do near sem end
+
 
 ## Completed Courses and Status
 1. Data Structures and Applications 
