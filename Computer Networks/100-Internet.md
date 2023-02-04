@@ -1,6 +1,6 @@
 # Nuts and Bolts Description
 ----
-- Description of the basic hardware and software components that make up the internet 
+- Description of the basic hardware and software components that make up the internet []()
 
 The internet is a computer network that interconnects billions of computing devices throughout the world. These devices can be traditional (pc, workstations) or non-traditional (laptops, smart phones, tvs). All of these devices are called **hosts** or **end systems**
 ![[nutsbolts1.png]]
