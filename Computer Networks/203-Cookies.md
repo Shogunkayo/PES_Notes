@@ -10,6 +10,7 @@
 	4. back-end database at the web site
 
 ![[cookie.png]]
+![cookie](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/cookie.png)
 
 - The `Set-cookie` header in the HTTP response contains the identification number
 - The browser appends a line containing the hostname of the server and the identification number to the special cookie file 

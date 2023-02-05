@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e11820954e0a4840",
@@ -160,14 +159,14 @@
   "active": "1bec3d766bf364f6",
   "lastOpenFiles": [
     "Computer Networks/202-Web and HTTP.md",
-    "Computer Networks/104-Protocol Layers.md",
+    "Computer Networks/201-Principles of Network Applications.md",
     "Computer Networks/203-Cookies.md",
+    "Computer Networks/104-Protocol Layers.md",
     "Microprocessor and Computer Architecture/200-Pipeline.md",
     "Microprocessor and Computer Architecture/104-Branch Instructions.md",
     "Design and Analysis of Algorithms/200-Brute Force.md",
     "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
     "Computer Networks/100-Internet.md",
-    "Untitled.md",
-    "Computer Networks/101-Network Edge.md"
+    "Untitled.md"
   ]
 }
