@@ -11,8 +11,12 @@
             "id": "1bec3d766bf364f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Networks/203-Cookies.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e11820954e0a4840",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Networks/203-Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Networks/203-Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Networks/203-Cookies.md"
+              }
             }
           },
           {
@@ -150,15 +159,15 @@
   },
   "active": "1bec3d766bf364f6",
   "lastOpenFiles": [
+    "Computer Networks/202-Web and HTTP.md",
+    "Computer Networks/104-Protocol Layers.md",
+    "Computer Networks/203-Cookies.md",
     "Microprocessor and Computer Architecture/200-Pipeline.md",
     "Microprocessor and Computer Architecture/104-Branch Instructions.md",
     "Design and Analysis of Algorithms/200-Brute Force.md",
     "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
     "Computer Networks/100-Internet.md",
     "Untitled.md",
-    "Computer Networks/101-Network Edge.md",
-    "Computer Networks/102-Network Core.md",
-    "Computer Networks/202-Web and HTTP.md",
-    "Computer Networks/103-Delay, Loss and Throughput.md"
+    "Computer Networks/101-Network Edge.md"
   ]
 }
