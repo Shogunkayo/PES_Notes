@@ -74,6 +74,7 @@ ADDEQ R4, R4, #1
 - ARM uses a 32x32 matrix cross bar switch
 
 ![[barrelshift.png]]
+![barrel](https://github.com/Shogunkayo/PES_Notes/blob/main/Microprocessor%20and%20Computer%20Architecture/Images/barrelshift.png)
 
 | Mnemonic | Description            |
 | -------- | ---------------------- |
