@@ -4,8 +4,6 @@ Notes I made for the courses I took in PES University
 ## Ongoing Courses and Status
 1. Computer Networks
   - Currently in Unit 2
-  - I am covering the entire textbook - "Computer Networking: A Top-down Approach" - Kurose,Ross
-  - Please refer the course information for details regarding syllabus
 
 2. Microprocessor and Computer Architecture
   - Currently in Unit 2

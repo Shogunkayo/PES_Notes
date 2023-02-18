@@ -93,3 +93,7 @@ ADD R2, R1, R7    @ using R7 immediately
 - To prevent unacceptable code incompatibilities, all 5-stage pipeline ARMs emulate the behaviour of the older 3-stage designs
 - The incremented PC value from the fetch stage is fed directly to the register file in the decode stage, bypassing the pipeline registers between the two stages
 - `PC + 4` for the next instruction is equal to `PC + 8` for the current instruction, so the correct `r15` value is obtained
+
+
+# Data Hazard 2
+---

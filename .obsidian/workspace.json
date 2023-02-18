@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5bb3aea98c22f67",
+        "id": "051d26756411f72d",
         "type": "tabs",
         "children": [
           {
-            "id": "1bec3d766bf364f6",
+            "id": "6c6d8474cce7cd74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/203-Cookies.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks/203-Cookies.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks/203-Cookies.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks/203-Cookies.md"
+                "file": "README.md"
               }
             }
           },
@@ -156,17 +156,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1bec3d766bf364f6",
+  "active": "6c6d8474cce7cd74",
   "lastOpenFiles": [
-    "Computer Networks/202-Web and HTTP.md",
-    "Computer Networks/201-Principles of Network Applications.md",
-    "Computer Networks/203-Cookies.md",
-    "Computer Networks/104-Protocol Layers.md",
-    "Microprocessor and Computer Architecture/200-Pipeline.md",
-    "Microprocessor and Computer Architecture/104-Branch Instructions.md",
+    "Design and Analysis of Algorithms/202-Divide and Conquer.md",
     "Design and Analysis of Algorithms/200-Brute Force.md",
-    "Microprocessor and Computer Architecture/109-Instruction Encoding.md",
-    "Computer Networks/100-Internet.md",
-    "Untitled.md"
+    "Design and Analysis of Algorithms/201-Exhaustive Search.md",
+    "README.md",
+    "Microprocessor and Computer Architecture/200-Pipeline.md",
+    "Computer Networks/DHCP.md",
+    "Computer Networks/Socket Programming.md",
+    "Computer Networks/207-P2P File Distribution.md",
+    "Computer Networks/206-DNS Records and Messages.md",
+    "Computer Networks/205-DNS.md"
   ]
 }
