@@ -9,7 +9,7 @@
 `www.somesite.com` is the host name and `/somedirectory/somefile.txt` is the object's path name
 
 - HTTP defines how web clients request web pages from web servers and how servers transfer web pages to clients
-- HTTP uses TCP as its underlying transport protocol. the HTTP client first initiates a TCP connection with the server. Once the connection is established, the browser and the server processes access TCP through their socket interfaces
+- HTTP uses TCP as its underlying transport protocol. The HTTP client first initiates a TCP connection with the server. Once the connection is established, the browser and the server processes access TCP through their socket interfaces
 - HTTP is a stateless protocol => does not store any state information about the client
 - A web server is always on, with a fixed IP address, and it services requests from potentially millions of different browsers
 - HTTP has nothing to do with how a web page is interpreted by a client. The HTTP specifications define only the communication protocol between the client and server HTTP programs
@@ -74,7 +74,7 @@ Accept-language: fr
 | Headers         | Purpose                                                                |
 | --------------- | ---------------------------------------------------------------------- |
 | Host            | specifies the host on which the object resides                         |
-| Connection      | 'close' indicates non-persistentt connection                           |
+| Connection      | 'close' indicates non-persistent connection                           |
 | User-agent      | the user agent (browser type) that is making the request to the server |
 | Accept-language | indicates the language in which the user prefers to receive the object, if such an object exists on the server, else server will send the default version                                                                       |
 

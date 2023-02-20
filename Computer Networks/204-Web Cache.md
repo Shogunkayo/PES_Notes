@@ -24,7 +24,7 @@ Content Distribution Network (CDN) company installs many geographically distribu
 - The copy of an object residing in the cache may become stale => the object housed in the web serer may have been modified since the copy was cached at the client
 - An HTTP request message is called conditional GET message if 
 	- the request message uses the GET method
-	- the request message includes an `IF-Modified-Since:` header line
+	- the request message includes an `If-Modified-Since:` header line
 
 1. On behalf of a requesting browser, a proxy cache sends a request message to a web server
 ```
@@ -44,7 +44,7 @@ Content-Type: image/gif
 ```
 GET /fruit/wiki.gif HTTP/1.1
 Host: www.exotiquecuisine.com
-If-modified-since: Web, 9 Sep 2015 09:23:24
+If-Modified-Since: Web, 9 Sep 2015 09:23:24
 ```
 5. The conditional GET is telling the server to send the object only if the object has been modified since the specified date. If the object has not been modified, the web server sends a response message to the cache
 ```

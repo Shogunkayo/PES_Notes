@@ -31,6 +31,7 @@ D(p2p) >= max{F/u(s), F/d(min), NF/u(total)}
 - While a peer downloads a chunk, it also uploads chunks to other peers
 ![[bittorrent.png]]
 ![bittorrent](https://github.com/Shogunkayo/PES_Notes/blob/main/Computer%20Networks/Images/bittorrent.png)
+
 - Each torrent has an infrastructure node called a tracker
 - When a peer joins a torrent, it registers itself with the tracker and periodically informs the tracker that it is still in the torrent
 - At any given time, each peer will have a subset of chunks from the file, with different peers having different subsets

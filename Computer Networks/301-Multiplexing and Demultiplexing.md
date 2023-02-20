@@ -1,0 +1,10 @@
+- Port numbers => 2^16
+- Multiplexing at sender => handle data from multiple sockets, add transport header
+- Demultiplexing at receiver
+- Host receives IP datagrams
+	- each datagram has source IP address, destination IP address
+	- each datagram carries one transport layer segment
+	- each segment has source, destination port number
+- Host uses IP addresses and port numbers to direct segment to appropriate socket
+- 2 tuples for UDP demultiplexing => destination IP address and destination port number
+- 4 tuples for TCP demultiplexing => destination IP address, destination port number, source IP address and source port number

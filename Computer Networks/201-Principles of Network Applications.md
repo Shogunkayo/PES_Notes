@@ -28,7 +28,7 @@
 - Processes on two different end systems commnicate with each other by exchanging message across the computer network
 - Processes lie in the Application Layer
 
-> In the context of a communication session between a pair of processes, the process that initiates the communication (that is, initially contacts the other process at the beginning of the session) is labeled as the client. The process that waits to be contacted to begin the session in the server
+> In the context of a communication session between a pair of processes, the process that initiates the communication (that is, initially contacts the other process at the beginning of the session) is labeled as the client. The process that waits to be contacted to begin the session is the server
 
 ### Socket
 - A process sends messages into, and receives messages from, the network through a software interface called a socket
@@ -44,8 +44,9 @@
 
 Socket  => IP address + Port number 
 To identify the receiving process, the address of the host and an identifier that specifies the receiving process in the destination host need to be specified. The host is identified by its IP address. An IP address is a 32-bit quantity. The sending process must also identify the receiving process running in the host. A destination port number serves this purpose. Popular applications have been assigned specific port numbers.
-- Web server is identified by port number 80
+- Web server is identified by port number 80 (HTTP)
 - A mail server process using SMTP (Simple Mail Transfer Protocol) is identified by port number 25
+- HTTPS uses port 443
 
 # Transport Services
 ---
@@ -57,7 +58,7 @@ To identify the receiving process, the address of the host and an identifier tha
 
 ### Throughput
 - As other sessions will be sharing the bandwidth along the network path, the available throughput can fluctuate with time
-- A  transport layer protocol can provide guranteed available throughput at some specified rate
+- A transport layer protocol can provide guranteed available throughput at some specified rate
 - Applications that have throughput requirements are said to be bandwidth-sensitive applications like many current multimedia applications
 - Elastic applications can make use of as much or as little throughput as happens to be available
 
@@ -99,6 +100,41 @@ To identify the receiving process, the address of the host and an identifier tha
 	- The semantics of the fields
 	- Rules for determining when and how a process sends messages and responds to messages
 
-| Application     | Application Protocol |
-| --------------- | -------------------- |
-| Web application |                      |
+| Port     | Protocol | Type    | Description                                  |
+| -------- | -------- | ------- | -------------------------------------------- |
+| 20       | FTP      | TCP     | File Transfer Protocol - Data                |
+| 21       | FTP      | TCP     | File Transfer Protocol - Control             |
+| 22       | SSH      | TCP/UDP | Secure Shell for secure login                |
+| 23       | Telnet   | TCP     | Unencrypted login                            |
+| 25       | SMTP     | TCP     | Simple Mail Transfer Protocol                |
+| 67       | DHCP     | UDP     | Dynamic Host - Server                        |
+| 68       | DHCP     | UDP     | Dynamic Host - Client                        |
+| 80       | HTTP     | TCP     | HyperText Transfer Protocol                  |
+| 123      | NTP      | UDP     | Network Time Protocol                        |
+| 161, 162 | SNMP     | TCP/UDP | Simple Network Management Protocol           |
+| 389      | LDAP     | TCP/UDP | Lighweight Directory Authentication Protocol |
+| 443      | HTTPS    | TCP/UDP | HTTP with Secure Socket Layer                                             |
+
+## File Transfer Protocol (FTP)
+- Exchange large files on TCP
+- Allows to perform CRUD operations on files at a server
+- Data connection => port 20, Control connection => port 21
+
+## Simple Mail Transfer Protocol (SMTP)
+- Used for email transmission
+- Connections are secured with SSL
+- Messages are stored and then forwarded to the destination
+- Port 25
+
+## Dynamic Host Configuration Protocol (DHCP)
+- Assigns IP addresses to computers in a network dynamically
+- IP addresses can change even when hosts are in network => DHCP leases
+- DHCP server => port 67, DHCP client => port 68
+
+## Simple Network Management Protocol (SNMP)
+- Exchange management information between network devices
+
+## Telnet and SSH
+- Used to communicate with remote devices
+- Telnet => port 23, SSH => port 22
+

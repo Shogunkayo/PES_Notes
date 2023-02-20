@@ -30,7 +30,7 @@ Resource Recods format: `{name, value, type, ttl}`
 - The first field is a 16bit number that identifies the query. This identifier is copied into the reply message to a query, allowing the client to match received replies with sent queries
 - A 1 bit query/reply flag indicated whether the message is a query(0) or a reply(1)
 - A 1 bit authoritative flag is set in a reply message when a DNS server is an authoritative server for a queried name
-- A 1 bit recursion-desired flag is set when a client desires that the DNS server perform recursion when it doesn't have the record. It is 
+- A 1 bit recursion-desired flag is set when a client desires that the DNS server perform recursion when it doesn't have the record
 - A 1 bit recursion-available flag is set in a reply if the DNS server supports recursion
 - There are also four number of fields which indicate the number of occurences of the four types of data sections that follow the header
 
@@ -55,3 +55,4 @@ Resource Recods format: `{name, value, type, ttl}`
 - Prior to 1999, Network Solutions had a monopoly on domain name registrations for `com`, `net` and `org` domains
 
 When registering a domain name, you need to provide the registrar with the names and IP addresses of your primary and secondary authoritative DNS servers. For each of the authoritative DNS servers, the registrar makes sure that a Type NS and a type A record are entered into the TLD servers
+

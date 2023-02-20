@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "051d26756411f72d",
+        "id": "7b5dfc3788d8f822",
         "type": "tabs",
         "children": [
           {
-            "id": "6c6d8474cce7cd74",
+            "id": "5aac8aa4f5a1076c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Networks/201-Principles of Network Applications.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e11820954e0a4840",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Networks/201-Principles of Network Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Networks/201-Principles of Network Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Networks/201-Principles of Network Applications.md"
+              }
             }
           },
           {
@@ -148,17 +157,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31d83ed2f57ce74e",
+  "active": "5aac8aa4f5a1076c",
   "lastOpenFiles": [
-    "Computer Networks/208-Socket Programming.md",
-    "Computer Networks/DHCP.md",
-    "Computer Networks/207-P2P File Distribution.md",
+    "Computer Networks/200-Application Layer.md",
+    "Computer Networks/301-Multiplexing and Demultiplexing.md",
+    "Computer Networks/209-.md",
     "Computer Networks/206-DNS Records and Messages.md",
-    "README.md",
-    "Design and Analysis of Algorithms/202-Divide and Conquer.md",
-    "Design and Analysis of Algorithms/200-Brute Force.md",
-    "Design and Analysis of Algorithms/201-Exhaustive Search.md",
-    "Microprocessor and Computer Architecture/200-Pipeline.md",
-    "Computer Networks/205-DNS.md"
+    "Computer Networks/208-Socket Programming.md",
+    "Computer Networks/207-P2P File Distribution.md",
+    "Computer Networks/205-DNS.md",
+    "Computer Networks/204-Web Cache.md",
+    "Computer Networks/203-Cookies.md",
+    "Computer Networks/201-Principles of Network Applications.md"
   ]
 }

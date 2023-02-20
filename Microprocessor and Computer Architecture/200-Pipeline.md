@@ -1,3 +1,11 @@
+# Pipeline
+---
+- Pipelining is an implementation technique whereby multiple instructions are overlapped in an execution
+- It is the key implementation technique used to make fast CPUs
+- Different steps are completing different parts of different instructions in parallel. Each of these steps is called a pipe stage or a pipe segment
+- The time required between moving an instruction one step down the pipeline is a processor cycle. Length of a processor cycle is determined by the time required for the slowest pipe stage
+- If the stages are perfectly balanced, then the ideal time per instruction on the pipelined instruction is equal to the time per instruction on unpipelined machine divided by the number of pipe stages
+
 # 3-Stage Pipeline
 ----
 ![[3stage.png]]
@@ -38,8 +46,7 @@ The simplest way to view breaks in the ARM pipeline is to observe that:
 - Branch instructions flush and refill the instruction pipeline
 
 ## PC Behaviour
-- The program counter must run ahead of the current instruction 
-by two instructions (eight bytes ahead)
+- The program counter must run ahead of the current instruction by two instructions (eight bytes ahead)
 - Unpredictable behaviour if `r15` is used after the first cycle of an instruction, as the instruction will itself have incremented the PC during its first cycle
 
 ## Disadvantages
@@ -94,6 +101,15 @@ ADD R2, R1, R7    @ using R7 immediately
 - The incremented PC value from the fetch stage is fed directly to the register file in the decode stage, bypassing the pipeline registers between the two stages
 - `PC + 4` for the next instruction is equal to `PC + 8` for the current instruction, so the correct `r15` value is obtained
 
+## Basic Performance Issues
+- Pipelining increases the CPU instruction throughput (the number of instructions completed per unit of time)
+- It does not reduce the execution time of an individual instruction
+- It slightly increases the execution time of each instruction due to overhead in the control of the pipeline
+- In addition to limitations arising from pipeline latency, limits arise from imbalance among the pipe stages and from pipelining overhead
+- Imbalance among the pipe stages reduces performance since the clock can run no faster than the time needed for the slowest pipeline stage
+- Pipeline overhead arises from the combination of pipeline register delay and clock skew
+- Pipeline registers add setup time (time that a register input must be stable before the clock signal that triggers a write occurs) plus propagation delay to the clock cycle
+- Clock skew (maximum delay between when the clock arrives at any two registers) also contributes to the lower limit on the clock cycle
+- Once the clock cycle is as small as the sum of the clock skew and latch overhead, no further pipelining is useful as there is no time left in the cycle for useful work
 
-# Data Hazard 2
----
+For an unpipelined processor, `average instruction execution time = clock cycle x average CPI`
