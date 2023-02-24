@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/301-Swapping.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/301-Swapping.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/301-Swapping.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/301-Swapping.md"
+                "file": "README.md"
               }
             }
           },
@@ -159,8 +159,8 @@
   },
   "active": "cc74a3e8f11bc827",
   "lastOpenFiles": [
-    "README.md",
     "Operating Systems/301-Swapping.md",
+    "README.md",
     "Operating Systems/images/backingstore.png",
     "Operating Systems/300-Main Memory.md",
     "Computer Networks/203-Cookies.md",

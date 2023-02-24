@@ -3,7 +3,7 @@ Notes I made for the courses I took in PES University
 
 ## Ongoing Courses and Status
 1. Computer Networks
-  - Currently in Unit 2
+  - Currently in Unit 3
 
 2. Microprocessor and Computer Architecture
   - Currently in Unit 2
