@@ -9,7 +9,7 @@ A process must be in memory to be executed. It can be swapped temporarily out of
 - Whenever the CPU scheduler decides to execute a process, it calls the dispatcher. 
 - The dispatcher checks to see whether the next process in the queue is in memory. If it is not, and if there is no free memory region, the dispatcher swaps out a process currently in memory and swaps in the desired process. It then reloads registers and transfers control to the selected process.
 
-![[backingstore.png]]
+![[backingstore.png]]![backingstore](https://github.com/Shogunkayo/PES_Notes/blob/main/Operating%20Systems/images/backingstore.png)
 
 - The context switch time in such a swapping system is fairly high. Total swap time = swap in time  + swap out time
 - The major part of the swap time is transfer time. The total transfer time is directly proportional to the amount of memory swapped
