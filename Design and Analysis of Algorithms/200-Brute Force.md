@@ -7,7 +7,7 @@
 - Useful for solving small-size instances of a problem even if inefficient for the entire set
 - Serves as a yardstick with which more efficient alternatives can be judged
 
-> A first  application of the brute-force approach often results in an algorithm that can be improved with a modest amount of effort
+> A first   application of the brute-force approach often results in an algorithm that can be improved with a modest amount of effort
 
 ## Selection Sort
 - Start by scanning the entire given list to find its smallest element

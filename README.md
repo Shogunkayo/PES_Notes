@@ -12,6 +12,9 @@ Notes I made for the courses I took in PES University
   - Currently in Unit 2
   - I haven't made notes for Unit 1, will probably do near sem end
 
+4. Operating Systems
+- Currently in Unit 3
+  - I haven't made notes for Unit 1 and 2, will probably do near sem end
 
 ## Completed Courses and Status
 1. Data Structures and Applications 

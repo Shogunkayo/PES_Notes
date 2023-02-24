@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b5dfc3788d8f822",
+        "id": "3d08f2d6c4673e19",
         "type": "tabs",
         "children": [
           {
-            "id": "5aac8aa4f5a1076c",
+            "id": "cc74a3e8f11bc827",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/201-Principles of Network Applications.md",
+                "file": "Operating Systems/301-Swapping.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks/201-Principles of Network Applications.md",
+                "file": "Operating Systems/301-Swapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks/201-Principles of Network Applications.md",
+                "file": "Operating Systems/301-Swapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks/201-Principles of Network Applications.md"
+                "file": "Operating Systems/301-Swapping.md"
               }
             }
           },
@@ -157,17 +157,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5aac8aa4f5a1076c",
+  "active": "cc74a3e8f11bc827",
   "lastOpenFiles": [
-    "Computer Networks/200-Application Layer.md",
-    "Computer Networks/301-Multiplexing and Demultiplexing.md",
-    "Computer Networks/209-.md",
-    "Computer Networks/206-DNS Records and Messages.md",
-    "Computer Networks/208-Socket Programming.md",
-    "Computer Networks/207-P2P File Distribution.md",
-    "Computer Networks/205-DNS.md",
-    "Computer Networks/204-Web Cache.md",
+    "README.md",
+    "Operating Systems/301-Swapping.md",
+    "Operating Systems/images/backingstore.png",
+    "Operating Systems/300-Main Memory.md",
     "Computer Networks/203-Cookies.md",
-    "Computer Networks/201-Principles of Network Applications.md"
+    "Computer Networks/204-Web Cache.md",
+    "Computer Networks/205-DNS.md",
+    "Computer Networks/206-DNS Records and Messages.md",
+    "Computer Networks/207-P2P File Distribution.md",
+    "Computer Networks/208-Socket Programming.md",
+    "Computer Networks/301-Multiplexing and Demultiplexing.md",
+    "Microprocessor and Computer Architecture/300-Memory.md",
+    "Microprocessor and Computer Architecture/201-Pipeline Hazards.md",
+    "Operating Systems/images/logphys.png",
+    "Operating Systems/images/multistep.png",
+    "Operating Systems/images/addr_prot.png",
+    "Operating Systems/images/memory_space.png",
+    "Operating Systems/images",
+    "Operating Systems/New Folder",
+    "Design and Analysis of Algorithms/200-Brute Force.md",
+    "Computer Networks/201-Principles of Network Applications.md",
+    "Computer Networks/200-Application Layer.md",
+    "Computer Networks/209-.md"
   ]
 }
