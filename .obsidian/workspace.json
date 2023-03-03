@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d08f2d6c4673e19",
+        "id": "b2c1a55c0a95a790",
         "type": "tabs",
         "children": [
           {
-            "id": "1fc1ec76cddc4309",
+            "id": "12ebe3f360ffe593",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/302-UDP.md",
+                "file": "Operating Systems/304-Paging.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks/302-UDP.md",
+                "file": "Operating Systems/304-Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks/302-UDP.md",
+                "file": "Operating Systems/304-Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks/302-UDP.md"
+                "file": "Operating Systems/304-Paging.md"
               }
             }
           },
@@ -157,35 +157,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1fc1ec76cddc4309",
+  "active": "12ebe3f360ffe593",
   "lastOpenFiles": [
-    "Computer Networks/301-Multiplexing and Demultiplexing.md",
+    "Operating Systems/303-Segmentation.md",
+    "Operating Systems/302-Contiguous Allocation.md",
+    "Operating Systems/301-Swapping.md",
+    "Operating Systems/300-Main Memory.md",
+    "Operating Systems/304-Paging.md",
+    "Operating Systems/images/pagemodel.png",
+    "Operating Systems/images/basicmet.png",
+    "Computer Networks/304-Pipelined RDT Protocols.md",
     "Computer Networks/302-UDP.md",
-    "Computer Networks/Images/udpsegment.png",
+    "305-TCP.md",
+    "Computer Networks/303-Principles of Reliable Data Transfer.md",
+    "Microprocessor and Computer Architecture/300-Memory.md",
+    "DSA/D2-Linked_List_Implementation.md",
+    "DSA/D1-Binary_Tree.md",
+    "DSA/E2-Traversal.md",
+    "Operating Systems/images/segmenttable.png",
+    "Computer Networks/Images/pipelined.png",
+    "Computer Networks/Images/rdt30w.png",
+    "Computer Networks/Images/rdt22r.png",
+    "Computer Networks/Images/rdt22s.png",
+    "Computer Networks/Images/rdt21r.png",
+    "Computer Networks/Images/rdt21s.png",
+    "Computer Networks/301-Multiplexing and Demultiplexing.md",
+    "Computer Networks/Images/rdt20.png",
+    "Computer Networks/100-Internet.md",
     "Computer Networks/300-Introductoin and Transport-Layer Services.md",
-    "Computer Networks/Images/tcpvudp.png",
     "Computer Networks/206-DNS Records and Messages.md",
     "Computer Networks/208-Socket Programming.md",
-    "Computer Networks/Images/port.png",
     "README.md",
-    "Operating Systems/301-Swapping.md",
-    "Operating Systems/images/backingstore.png",
-    "Operating Systems/300-Main Memory.md",
     "Computer Networks/203-Cookies.md",
     "Computer Networks/204-Web Cache.md",
     "Computer Networks/205-DNS.md",
     "Computer Networks/207-P2P File Distribution.md",
-    "Microprocessor and Computer Architecture/300-Memory.md",
     "Microprocessor and Computer Architecture/201-Pipeline Hazards.md",
-    "Operating Systems/images/logphys.png",
-    "Operating Systems/images/multistep.png",
-    "Operating Systems/images/addr_prot.png",
-    "Operating Systems/images/memory_space.png",
     "Operating Systems/images",
     "Operating Systems/New Folder",
-    "Design and Analysis of Algorithms/200-Brute Force.md",
-    "Computer Networks/201-Principles of Network Applications.md",
-    "Computer Networks/200-Application Layer.md",
-    "Computer Networks/209-.md"
+    "Design and Analysis of Algorithms/200-Brute Force.md"
   ]
 }

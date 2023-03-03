@@ -19,3 +19,8 @@ A process must be in memory to be executed. It can be swapped temporarily out of
 - Standard swapping is not used in modern operating systems as it requires too much swapping time and provides too little execution time to be a reasonable memory management solution
 - In one variation, swapping is normal disabled but will start if the amount of free memory falls below a threshold amount. Swapping is halted when the amount of free memory increases
 - Another variation involves swapping portions of processes rather than entire processes, to decrease swap time
+
+## Swapping on Mobile Systems
+- Mobile systems typically do not support swapping in any form
+- Mobile devices generally use flash memory rather than spacious hard disks as their persistent storage, resulting in memory space constraint
+- There is also a limited number of writes that flash memory can tolerate before it becomes unreliable

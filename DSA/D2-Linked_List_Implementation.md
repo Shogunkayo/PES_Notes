@@ -144,4 +144,3 @@ node* delete(node* root, int x){
     }
 }
 ```
-
