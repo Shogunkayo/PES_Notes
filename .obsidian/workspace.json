@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b2c1a55c0a95a790",
+        "id": "5242d410475404eb",
         "type": "tabs",
         "children": [
           {
-            "id": "12ebe3f360ffe593",
+            "id": "3efa421b3a7b2577",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/301-Swapping.md",
+                "file": "Operating Systems/304-Paging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3d834662b3c96fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating Systems/305-Structure of Page Table.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e11820954e0a4840",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/301-Swapping.md",
+                "file": "Operating Systems/305-Structure of Page Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/301-Swapping.md",
+                "file": "Operating Systems/305-Structure of Page Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/301-Swapping.md"
+                "file": "Operating Systems/305-Structure of Page Table.md"
               }
             }
           },
@@ -156,15 +170,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "12ebe3f360ffe593",
+  "active": "b3d834662b3c96fa",
   "lastOpenFiles": [
-    "Operating Systems/303-Segmentation.md",
+    "Operating Systems/images/invertedpage.png",
+    "Operating Systems/images/hashedpage.png",
+    "Operating Systems/images/twolevel3.png",
+    "Operating Systems/images/twolevel2.png",
+    "Operating Systems/images/twolevel1.png",
+    "Operating Systems/images/twolevel.png",
     "Operating Systems/304-Paging.md",
+    "Operating Systems/305-Structure of Page Table.md",
+    "Operating Systems/303-Segmentation.md",
     "Operating Systems/302-Contiguous Allocation.md",
     "Operating Systems/301-Swapping.md",
     "Operating Systems/300-Main Memory.md",
+    "Operating Systems/images/codeshare.png",
+    "Operating Systems/images/valinval.png",
+    "Operating Systems/images/tlb.png",
+    "Operating Systems/images/pagetable.png",
     "Operating Systems/images/pagemodel.png",
-    "Operating Systems/images/basicmet.png",
     "Computer Networks/304-Pipelined RDT Protocols.md",
     "Computer Networks/302-UDP.md",
     "305-TCP.md",
@@ -173,15 +197,7 @@
     "DSA/D2-Linked_List_Implementation.md",
     "DSA/D1-Binary_Tree.md",
     "DSA/E2-Traversal.md",
-    "Operating Systems/images/segmenttable.png",
-    "Computer Networks/Images/pipelined.png",
-    "Computer Networks/Images/rdt30w.png",
-    "Computer Networks/Images/rdt22r.png",
-    "Computer Networks/Images/rdt22s.png",
-    "Computer Networks/Images/rdt21r.png",
-    "Computer Networks/Images/rdt21s.png",
     "Computer Networks/301-Multiplexing and Demultiplexing.md",
-    "Computer Networks/Images/rdt20.png",
     "Computer Networks/100-Internet.md",
     "Computer Networks/300-Introductoin and Transport-Layer Services.md",
     "Computer Networks/206-DNS Records and Messages.md",
@@ -193,7 +209,6 @@
     "Computer Networks/207-P2P File Distribution.md",
     "Microprocessor and Computer Architecture/201-Pipeline Hazards.md",
     "Operating Systems/images",
-    "Operating Systems/New Folder",
-    "Design and Analysis of Algorithms/200-Brute Force.md"
+    "Operating Systems/New Folder"
   ]
 }
