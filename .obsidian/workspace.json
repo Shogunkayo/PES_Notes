@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5242d410475404eb",
+        "id": "d6583575cd087b3f",
         "type": "tabs",
         "children": [
           {
-            "id": "3efa421b3a7b2577",
+            "id": "dd11b13b2f2eae8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating Systems/304-Paging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3d834662b3c96fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating Systems/305-Structure of Page Table.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/305-Structure of Page Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/305-Structure of Page Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Operating Systems/305-Structure of Page Table.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,16 +149,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b3d834662b3c96fa",
+  "active": "dd11b13b2f2eae8e",
   "lastOpenFiles": [
+    "Operating Systems/304-Paging.md",
+    "Operating Systems/305-Structure of Page Table.md",
     "Operating Systems/images/invertedpage.png",
     "Operating Systems/images/hashedpage.png",
     "Operating Systems/images/twolevel3.png",
     "Operating Systems/images/twolevel2.png",
     "Operating Systems/images/twolevel1.png",
     "Operating Systems/images/twolevel.png",
-    "Operating Systems/304-Paging.md",
-    "Operating Systems/305-Structure of Page Table.md",
     "Operating Systems/303-Segmentation.md",
     "Operating Systems/302-Contiguous Allocation.md",
     "Operating Systems/301-Swapping.md",
@@ -188,7 +167,6 @@
     "Operating Systems/images/valinval.png",
     "Operating Systems/images/tlb.png",
     "Operating Systems/images/pagetable.png",
-    "Operating Systems/images/pagemodel.png",
     "Computer Networks/304-Pipelined RDT Protocols.md",
     "Computer Networks/302-UDP.md",
     "305-TCP.md",
