@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/304-Paging.md",
+                "file": "Operating Systems/301-Swapping.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e11820954e0a4840",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/304-Paging.md",
+                "file": "Operating Systems/301-Swapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/304-Paging.md",
+                "file": "Operating Systems/301-Swapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/304-Paging.md"
+                "file": "Operating Systems/301-Swapping.md"
               }
             }
           },
@@ -160,10 +159,10 @@
   "active": "12ebe3f360ffe593",
   "lastOpenFiles": [
     "Operating Systems/303-Segmentation.md",
+    "Operating Systems/304-Paging.md",
     "Operating Systems/302-Contiguous Allocation.md",
     "Operating Systems/301-Swapping.md",
     "Operating Systems/300-Main Memory.md",
-    "Operating Systems/304-Paging.md",
     "Operating Systems/images/pagemodel.png",
     "Operating Systems/images/basicmet.png",
     "Computer Networks/304-Pipelined RDT Protocols.md",

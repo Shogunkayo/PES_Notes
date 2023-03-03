@@ -19,6 +19,7 @@
 - Page offset `d` is combined with the base address to define the physical memory address that is sent to the memory unit
 
 ![[pagemodel.png]]
+
 ![pagemodel](https://github.com/Shogunkayo/PES_Notes/blob/main/Operating%20Systems/images/pagemodel.png)
 
 - The page size is defined by the hardware.  Size of a page is a power of 2. The selection of a power of 2 as a page size makes the translation of a logical address into a page number and page offset particularly easy

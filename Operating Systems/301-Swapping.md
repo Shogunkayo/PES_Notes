@@ -24,3 +24,4 @@ A process must be in memory to be executed. It can be swapped temporarily out of
 - Mobile systems typically do not support swapping in any form
 - Mobile devices generally use flash memory rather than spacious hard disks as their persistent storage, resulting in memory space constraint
 - There is also a limited number of writes that flash memory can tolerate before it becomes unreliable
+- There is also a limited number of writes that flash memory can tolerate before it becomes unreliable

@@ -13,6 +13,7 @@
 - Each entry in the segment table has a segment base and a segment limit. The segment base contains the starting physical address where the segment resides in memory, and the segment limit specifies the length of the segment
 
 ![[segmenttable.png]]
+
 ![segmenttable](https://github.com/Shogunkayo/PES_Notes/blob/main/Operating%20Systems/images/segmenttable.png)
 
 - Logical address consists of two parts: a segment number `s` and an offset into that segment `d`
@@ -20,4 +21,3 @@
 - The offset must be between 0 and the segment limit. 
 - When the offset is legal, it is added to the segment base to produce the address in physical memory of the desired byte
 - If it is illegal, it will result in a trap to the operating system
-
