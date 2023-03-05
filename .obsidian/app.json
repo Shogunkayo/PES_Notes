@@ -1,4 +1,5 @@
 {
   "showInlineTitle": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "livePreview": true
 }

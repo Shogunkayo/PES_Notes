@@ -11,8 +11,12 @@
             "id": "dd11b13b2f2eae8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Networks/304-Pipelined RDT Protocols.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Networks/304-Pipelined RDT Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Networks/304-Pipelined RDT Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Networks/304-Pipelined RDT Protocols.md"
+              }
             }
           },
           {
@@ -151,22 +159,27 @@
   },
   "active": "dd11b13b2f2eae8e",
   "lastOpenFiles": [
+    "Computer Networks/Images/srwin.png",
+    "Computer Networks/Images/srop.png",
+    "Computer Networks/Images/sr.png",
+    "Computer Networks/Images/gbnop.png",
+    "Computer Networks/Images/gbnfsm.png",
+    "Computer Networks/Images/gbn.png",
+    "Computer Networks/Images/pipelined2.png",
+    "Design and Analysis of Algorithms/202-Divide and Conquer.md",
+    "DSA/C4-Double_Ended_Queue.md",
+    "DSA/00-Data Structures and Applications.md",
+    "DSA/A1-Singly_Linked_List.md",
     "Operating Systems/304-Paging.md",
     "Operating Systems/305-Structure of Page Table.md",
     "Operating Systems/images/invertedpage.png",
     "Operating Systems/images/hashedpage.png",
     "Operating Systems/images/twolevel3.png",
     "Operating Systems/images/twolevel2.png",
-    "Operating Systems/images/twolevel1.png",
-    "Operating Systems/images/twolevel.png",
     "Operating Systems/303-Segmentation.md",
     "Operating Systems/302-Contiguous Allocation.md",
     "Operating Systems/301-Swapping.md",
     "Operating Systems/300-Main Memory.md",
-    "Operating Systems/images/codeshare.png",
-    "Operating Systems/images/valinval.png",
-    "Operating Systems/images/tlb.png",
-    "Operating Systems/images/pagetable.png",
     "Computer Networks/304-Pipelined RDT Protocols.md",
     "Computer Networks/302-UDP.md",
     "305-TCP.md",
@@ -182,10 +195,6 @@
     "Computer Networks/208-Socket Programming.md",
     "README.md",
     "Computer Networks/203-Cookies.md",
-    "Computer Networks/204-Web Cache.md",
-    "Computer Networks/205-DNS.md",
-    "Computer Networks/207-P2P File Distribution.md",
-    "Microprocessor and Computer Architecture/201-Pipeline Hazards.md",
     "Operating Systems/images",
     "Operating Systems/New Folder"
   ]
